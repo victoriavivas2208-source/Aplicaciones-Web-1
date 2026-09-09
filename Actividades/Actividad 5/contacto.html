@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografia Profesional</title>
+</head>
+
+<body>
+    <header>
+        <img src="./imagenes/logo.png" alt="logo de emprendimiento" width="300" height="200">
+    </header>
+
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./contacto.html">Contacto</a>
+    </nav>
+    <h1>Contacto</h1>
+
+    <h2>¿Querés consultar por una sesión o contratar cobertura fotográfica para tu evento?</h2>
+    <p>Completá el siguiente formulario con tus datos y contame brevemente qué tipo de servicio estás buscando. La
+        información permitirá conocer las características de tu evento y preparar una respuesta adecuada a tu consulta.
+    </p>
+    <!-- Form Web -->
+    <form action="/contacto.html" method="post">
+        <!-- creame un labele input para : nombre telefono mail tamaño 
+             direccion consulta -->
+        <label for="id-nombre">Nombre y Apellido:</label>
+        <input type="text" name="nombre y apellido" id="id-nombre" >
+        <label for="id-email">Correo Electrónico:</label>
+        <input type="email" name="email" id="id-email">
+        <label for="id-telefono">Teléfono:</label>
+        <input type="tel" name="telefono" id="id-telefono">
+        <label for="id-tipo-servicio">Tipo de Servicio:</label>
+        <select name="tipo de servicio" id="id-Tipo de servicio">
+            <option value="Fotografia de eventos sociales">Fotografia de eventos sociales</option>
+            <option value="Fotografia de cumpleaños de 15 años">Fotografia de cumpleaños de 15 años</option>
+            <option value="Sesiones familiares">Sesiones familiares</option>
+            <option value="Retratos profesionales">Retratos profesionales</option>
+            <option value="Fotografía para eventos corporativos">Fotografía para eventos corporativos</option>
+            <option value="Otros">Otros</option>
+        </select>
+        <label for="fecha">Fecha de evento o sesión:</label>
+        <input type="date" name="fecha" id="fecha">
+        <label for="Lugar del evento" >Lugar del evento o sesión:</label>
+        <input type="text" name="Lugar del evento o sesión" id="id-lugar-evento"
+        
+        <label for="id-cantidad">Cantidad aproximada de personas:</label>
+        <input type="number" name="Cantidad aproximada de personas" id="id-cantidad" min="1" max="100">
+        <label for="id-consulta">Consulta:</label>
+        <input for="consulta" type="text" name="Consulta" id="id-consulta">

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Huellitas - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <img src="./recursos/imagenes/logo-mascota.webp" alt="logo huellitas">
+
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./catalogo.html">Catálogo</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <!-- Form Web -->
+         <form action="/contacto.html" method="post">
+            <!-- creame un labele input para : nombre telefono mail tamaño 
+             direccion consulta -->
+             <label for="id-nombre">Nombre:</label>
+             <input type="text" name="nombre" id="id-nombre">
+             <label for="id-telefono">Teléfono:</label>
+             <input type="tel" name="telefono"  id="id-telefono">
+             <label for="id-email">Email:</label>
+             <input type="email" name="email" id="id-email">
+            <select name="tamaño-mascota" id="id-tamaño-mascota">
+                <option value="pequeño">Pequeño</option>
+                <option value="mediano">Mediano</option>
+                <option value="grande">Grande</option>
+            </select>
+            <label for="id-direccion">Dirección:</label>
+            <input type="text" name="direccion" id="id-direccion">
+            <label for="id-comentarios">Comentarios:</label>
+            <textarea name="comentarios" id="id-comentarios"></textarea>
+            <input type="button" value="Enviar consulta">
+            <!-- --------- -->
+             <!-- <input type="submit"> value ="Enviar consulta"-->
+            <button type="submit">Enviar consulta</button>s
+         </form>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@huellitas" target="_blank">
+                    @huellitas
+                </a>
+            </li>
+            <li>
+                Rondeau 175 - Cordoba
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
