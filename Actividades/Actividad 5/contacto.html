@@ -27,13 +27,13 @@
         <!-- creame un labele input para : nombre telefono mail tamaño 
              direccion consulta -->
         <label for="id-nombre">Nombre y Apellido:</label>
-        <input type="text" name="nombre y apellido" id="id-nombre" >
+        <input type="text" name="nombre y apellido" id="id-nombre">
         <label for="id-email">Correo Electrónico:</label>
         <input type="email" name="email" id="id-email">
         <label for="id-telefono">Teléfono:</label>
         <input type="tel" name="telefono" id="id-telefono">
         <label for="id-tipo-servicio">Tipo de Servicio:</label>
-        <select name="tipo de servicio" id="id-Tipo de servicio">
+        <select name="tipo-servicio" id="id-tipo-servicio">
             <option value="Fotografia de eventos sociales">Fotografia de eventos sociales</option>
             <option value="Fotografia de cumpleaños de 15 años">Fotografia de cumpleaños de 15 años</option>
             <option value="Sesiones familiares">Sesiones familiares</option>
@@ -43,10 +43,15 @@
         </select>
         <label for="fecha">Fecha de evento o sesión:</label>
         <input type="date" name="fecha" id="fecha">
-        <label for="Lugar del evento" >Lugar del evento o sesión:</label>
-        <input type="text" name="Lugar del evento o sesión" id="id-lugar-evento"
-        
+        <label for="id-lugar-evento">Lugar del evento o sesión:</label>
+        <input type="text" name="lugar" id="id-lugar-evento">
         <label for="id-cantidad">Cantidad aproximada de personas:</label>
         <input type="number" name="Cantidad aproximada de personas" id="id-cantidad" min="1" max="100">
-        <label for="id-consulta">Consulta:</label>
-        <input for="consulta" type="text" name="Consulta" id="id-consulta">
+        <label for="id-consulta">Mensaje o consulta:</label>
+        <textarea name="consulta" id="id-consulta"></textarea>
+        <button type="submit">Enviar consulta</button>
+    </form>
+
+</body>
+
+</html>
