@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Garage - Catálogo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <div class="logo">RACING GARAGE</div>
+            <div class="cart">🛒</div>
+        </div>
+
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="catalogo.html">CATÁLOGO</a>
+            <a href="#">NOSOTROS</a>
+            <a href="#">CONTACTOS</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="catalog-layout">
+
+            <aside class="sidebar">
+
+                <h3>FILTRA TU VEHÍCULO</h3>
+
+                <select class="filter" name="marca">
+                    <option value="">MARCA</option>
+                    <option value="ford">Ford</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="volkswagen">Volkswagen</option>
+                </select>
+
+                <select class="filter" name="modelo">
+                    <option value="">MODELO</option>
+                    <option value="fiesta">Fiesta</option>
+                    <option value="gol">Gol</option>
+                    <option value="uno">Uno</option>
+                </select>
+
+                <select class="filter" name="anio">
+                    <option value="">AÑO</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                </select>
+
+                <h3>CATEGORÍAS</h3>
+
+                <div class="categories">
+
+                    <label>
+                        <input type="checkbox">
+                        Accesorios Interiores
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Accesorios Exteriores
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Limpieza
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Iluminación
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Personalización
+                    </label>
+
+                </div>
+
+            </aside>
+
+            <section>
+
+                <div class="search">
+                    <input
+                        type="search"
+                        placeholder="BUSCAR PRODUCTOS">
+
+                    <button class="button" type="button">
+                        🔍
+                    </button>
+                </div>
+
+                <div class="catalog-products">
+
+                    <article class="catalog-card">
+                        
+                        <img src="./imagenes/filtroaire.jpg" alt="Imagen de Filtro de aire" width="400" height="200">
+
+                        <h3>Filtro de Aire Cónico</h3>
+                        <p>Precio: $8.500</p>
+                        <p>Filtro Lavable deportivo de alta inducción y flujo mejorado</p>
+
+                        <div class="card-actions">
+                            <button class="button" type="button">
+                                AGREGAR 🛒
+                            </button>
+
+                            <a class="button" href="producto.html">
+                                DETALLE
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="catalog-card">
+                        <img src="./imagenes/kit.PNG" alt="Imagen Kit Pastillas Ceramicas" width="400" height="200">
+
+                        <h3>Kit Pastillas Ceramicas</h3>
+                        <p>Precio: $22.000</p>
+                        <p>Compuesto cerámico de alto coeficiente de fracción libre de ruido</p>
+
+                        <div class="card-actions">
+                            <button class="button" type="button">
+                                AGREGAR 🛒
+                            </button>
+
+                            <a class="button" href="producto.html">
+                                DETALLE
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="catalog-card">
+                        <img src="./imagenes/am.jpg" alt="Imagen Amortiguador Regulable" width="400" height="200">
+
+                        <h3>Amortiguador Regulable</h3>
+                        <p>Precio: $42.000</p>
+                        <p>Ajustables en altura y rebote para control absoluto</p>
+
+                        <div class="card-actions">
+                            <button class="button" type="button">
+                                AGREGAR 🛒
+                            </button>
+
+                            <a class="button" href="producto.html">
+                                DETALLE
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="catalog-card">
+                        <img src="./imagenes/tuercas.jpg" alt="Imagen de Kit de Tuercas Seguras" width="400" height="200">
+
+                        <h3>Kit Tuercas Seguras</h3>
+                        <p>Precio: $5.500</p>
+                        <p>Alineación de Titanio antirrobo con llave de codificación única</p>
+
+                        <div class="card-actions">
+                            <button class="button" type="button">
+                                AGREGAR 🛒
+                            </button>
+
+                            <a class="button" href="producto.html">
+                                DETALLE
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
