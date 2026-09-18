@@ -100,9 +100,20 @@ h1 {
 }
 
 .product-card {
-    border: 1px solid #777;
+    border: 1px solid red;
+    border-radius: 8px;
     padding: 12px;
+    text-align: left;
+}
+
+.product-card .button {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
     text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
 }
 
 .product-image {
@@ -183,17 +194,16 @@ h1 {
 .detail-info h2 {
     font-size: 20px;
     margin-bottom: 25px;
-}
-
-.detail-info .description {
-    border: 1px solid #555;
-    padding: 20px;
-    margin-bottom: 20px;
+    color: black;
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
 }
 
 .price {
     font-weight: bold;
     margin-bottom: 18px;
+    color: red;
+    font-size: 24px;
 }
 
 .purchase-row {
@@ -291,6 +301,51 @@ h1 {
 .card-actions .button {
     padding: 6px 9px;
     font-size: 10px;
+}
+
+.price-quantity {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+    margin: 0;
+}
+
+.quantity-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.quantity {
+    width: 45px;
+    padding: 5px;
+    border: 1px solid #777;
+    font-size: 14px;
+}
+
+.cart-button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #cc0000;
 }
 
 /* DISEÑO RESPONSIVE */
