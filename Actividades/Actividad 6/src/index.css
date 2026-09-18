@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+header {
+    background-color: rgb(183, 207, 211);
+}
+
+.titulo-ppal {
+    color: rgb(18, 68, 92);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.parrafo-especial {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: rgb(142, 185, 221);
+}
+
+.subtitulo-serv {
+    color: rgb(18, 68, 92);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.sub-eventossoc {
+    color: rgb(56, 81, 97);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.text-servsoc {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(183, 205, 223);
+}

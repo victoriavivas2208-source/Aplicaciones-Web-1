@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,83 +7,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Racing Garage - Producto</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header>
-        <div class="header-top">
-            <div class="logo">RACING GARAGE</div>
-            <div class="cart">🛒</div>
+
+        <div>
+            <strong>RACING GARAGE</strong>
+
+            <button type="button" aria-label="Abrir carrito de compras">
+                🛒
+            </button>
         </div>
 
-        <nav>
+        <nav aria-label="Navegación principal">
+
             <a href="index.html">INICIO</a>
             <a href="catalogo.html">CATÁLOGO</a>
             <a href="#">NOSOTROS</a>
             <a href="#">CONTACTOS</a>
+
         </nav>
+
     </header>
+
 
     <main>
 
-        <section class="detail-layout">
+        <h1>Detalle del producto</h1>
+
+
+        <section aria-labelledby="titulo-producto">
+
 
             <div>
-                <div class="detail-image">
-                    <img src="./imagenes/escape.jpg" alt="Imagen de Escape de Titanio Alto Flujo" width="548"
-                        height="330">
+
+                <div>
+
+                    <img src="./imagenes/escape.jpg"
+                         alt="Escape de titanio de alto flujo"
+                         width="548"
+                         height="330">
+
                 </div>
 
-                <div class="thumbnails">
-                    <img src="./imagenes/escape1.jpg" alt="Imagen de Escape de Titanio Alto Flujo" width="130"
-                        height="80">
-                    <img src="./imagenes/escape2.jpg" alt="Imagen de Escape de Titanio Alto Flujo" width="130"
-                        height="80">
-                    <img src="./imagenes/escape3.jpg" alt="Imagen de Escape de Titanio Alto Flujo" width="130"
-                        height="80">
-                    <img src="./imagenes/escape4.jpg" alt="Imagen de Escape de Titanio Alto Flujo" width="130"
-                        height="80">
+
+                <div aria-label="Imágenes adicionales del producto">
+
+                    <img src="./imagenes/escape1.jpg"
+                         alt="Vista adicional del escape de titanio"
+                         width="130"
+                         height="80">
+
+                    <img src="./imagenes/escape2.jpg"
+                         alt="Vista adicional del escape de titanio"
+                         width="130"
+                         height="80">
+
+                    <img src="./imagenes/escape3.jpg"
+                         alt="Vista adicional del escape de titanio"
+                         width="130"
+                         height="80">
+
+                    <img src="./imagenes/escape4.jpg"
+                         alt="Vista adicional del escape de titanio"
+                         width="130"
+                         height="80">
+
                 </div>
+
             </div>
 
-            <div class="detail-info">
 
-                <h2>ESCAPE DE TITANIO ALTO FLUJO</h2>
+            <div>
 
-                <div class="description">
-                    <strong>DESCRIPCIÓN</strong>
-                    <p>
+                <h2 id="titulo-producto">
+                    ESCAPE DE TITANIO ALTO FLUJO
+                </h2>
+
+
+                <div>
+
+                    <h3>DESCRIPCIÓN</h3>
+
                     <p>
                         Mejora la acústica y optimiza la salida de gases.
-                        Fabricado en titanio de grado aeroespacial para máxima resistencia y reducción de peso.
+                        Fabricado en titanio de grado aeroespacial
+                        para máxima resistencia y reducción de peso.
                     </p>
-                    </p>
+
                 </div>
 
-                <div class="price-quantity">
+
+                <div>
 
                     <div>
-                        <p class="price">PRECIO: $28.000</p>
+
+                        <p>
+                            <strong>PRECIO: $28.000</strong>
+                        </p>
+
                     </div>
 
-                    <div class="quantity-box">
+
+                    <div>
+
                         <label for="cantidad">CANTIDAD</label>
 
-                        <input class="quantity" type="number" id="cantidad" name="cantidad" min="1" value="1">
+                        <input type="number"
+                               id="cantidad"
+                               name="cantidad"
+                               min="1"
+                               value="1">
+
                     </div>
 
                 </div>
 
-                <button class="cart-button" type="button">
+
+                <button type="button"
+                        aria-label="Agregar Escape de Titanio Alto Flujo al carrito">
+
                     🛒 AGREGAR AL CARRITO
+
                 </button>
+
             </div>
+
 
         </section>
 
     </main>
+
+
+    <footer>
+
+        <p>
+            Racing Garage - Accesorios para tu vehículo
+        </p>
+
+    </footer>
+
 
 </body>
 
