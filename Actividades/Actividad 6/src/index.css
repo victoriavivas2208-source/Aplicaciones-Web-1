@@ -82,16 +82,16 @@ header {
    ========================= */
 
 body {
-    background-color: rgb(251, 252, 255);
+    background-color: rgb(213, 221, 243);
 }
 
 header {
     background-color: rgb(139, 163, 216);
 }
 
-titulo-contacto {
+.titulo-contacto {
     color: rgb(18, 68, 92);
     font-size: 40px;
     margin-top: 20px;
-    background-color: rgb(148, 187, 231);
+    background-color: rgb(149, 187, 231);
 }
