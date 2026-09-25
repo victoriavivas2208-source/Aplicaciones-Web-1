@@ -1,23 +1,20 @@
 body {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(251, 252, 255);
 }
 
 header {
-    background-color: rgb(183, 207, 211);
+    background-color: rgb(139, 163, 216);
 }
 
+
+/* =========================
+   PÁGINA PRINCIPAL
+   ========================= */
 .titulo-ppal {
     color: rgb(18, 68, 92);
     font-size: 40px;
-    font-weight: bold;
-    text-align: center;
     margin-top: 20px;
-}
-.parrafo-especial {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 1.5;
-    background-color: rgb(142, 185, 221);
+    background-color: rgb(148, 187, 231);
 }
 
 .subtitulo-serv {
@@ -26,19 +23,75 @@ header {
     font-weight: bold;
     text-align: left;
     margin-top: 40px;
+    background-color: rgba(181, 185, 187, 0.712);
 }
 
 .sub-eventossoc {
-    color: rgb(56, 81, 97);
+    color: rgb(25, 110, 163);
     font-size: 24px;
     font-weight: bold;
     text-align: left;
     margin-top: 20px;
 }
 
-.text-servsoc {
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: rgb(183, 205, 223);
+.sub-quince {
+    color: rgb(25, 110, 163);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sub-familia {
+    color: rgb(25, 110, 163);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sub-retrato {
+    color: rgb(25, 110, 163);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sub-eventoscorp {
+    color: rgb(25, 110, 163);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.trayectoria {
+    color: rgb(18, 68, 92);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 40px;
+    background-color: rgba(181, 185, 187, 0.712);
+}
+
+
+
+/* =========================
+   PÁGINA SECUNDARIA
+   ========================= */
+
+body {
+    background-color: rgb(251, 252, 255);
+}
+
+header {
+    background-color: rgb(139, 163, 216);
+}
+
+titulo-contacto {
+    color: rgb(18, 68, 92);
+    font-size: 40px;
+    margin-top: 20px;
+    background-color: rgb(148, 187, 231);
 }
