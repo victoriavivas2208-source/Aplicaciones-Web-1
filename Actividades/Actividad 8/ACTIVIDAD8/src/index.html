@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Permite adaptar la página a celulares y tablets. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable | Cabañas</title>
+
+    <!-- Vinculamos el archivo CSS. -->
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+
+    <!-- HEADER: contiene el encabezado y la navegación principal del sitio. -->
+    <header class="encabezado">
+
+        <!-- El logo es un enlace que permite volver al inicio. -->
+        <a class="logo" href="index.html" aria-label="Ir al inicio de Retiro Sustentable">
+            <!-- ALT: describe la imagen, se utiliza para personas que utilizan lectores de pantalla. -->
+            <img src="./recursos/imagenes/logo-rs.svg" alt="Retiro Sustentable" width="950" height="200">
+        </a>
+
+        <!-- NAV: navegación principal del sitio. -->
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+
+    <!-- MAIN: contenido principal de la página. -->
+    <main class="contenido">
+
+        <!-- SECTION: agrupamos la presentación porque contiene información del sitio. -->
+        <section class="presentacion">
+            <h1>Cabañas para alquiler</h1>
+            <p>
+                Te damos la bienvenida a Retiro Sustentable, un espacio donde la comodidad y la naturaleza se unen
+                para ofrecerte una experiencia única en Traslasierra, Córdoba. Descubrí nuestras cabañas en
+                localidades como San Javier, Nono, Mina Clavero, Las Rabonas y muchos otros rincones de la región,
+                y disfrutá de los paisajes serranos, la tranquilidad y el encanto de cada lugar.
+            </p>
+        </section>
+
+        <!-- SECTION: agrupamos el catálogo porque contiene un conjunto de cabañas relacionadas. -->
+        <section class="catalogo" aria-label="Catálogo de cabañas">
+
+            <!-- ARTICLE: lo utilizamos porque cada cabaña contiene información independiente del resto. -->
+            <article class="cabaña">
+                <h2>Cabaña 1</h2>
+
+                <!-- La imagen muestra la cabaña y el ALT la describe cuando no puede visualizarse. -->
+                <img src="./recursos/imagenes/modelo1.webp"
+                    alt="Vista de la cabaña 1"
+                    width="300"
+                    height="200">
+
+                <p>
+                    Descubrí el encanto de San Javier desde nuestra cabaña, donde los paisajes serranos y la
+                    serenidad del entorno se combinan para ofrecerte una experiencia ideal para disfrutar de una
+                    escapada diferente. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <!-- Indicamos el precio por día para que el usuario pueda conocer el valor. -->
+                <p class="precio">Precio por día: $80.000</p>
+
+                <!-- El enlace permite acceder directamente a la página de consultas y reservas. -->
+                <a class="boton" href="reservas.html">Consultar disponibilidad</a>
+            </article>
+
+            <!-- ARTICLE: cada cabaña se presenta como un contenido independiente. -->
+            <article class="cabaña">
+                <h2>Cabaña 2</h2>
+
+                <img src="./recursos/imagenes/modelo2.webp"
+                    alt="Vista de la cabaña 2"
+                    width="300"
+                    height="200">
+
+                <p>
+                    Disfrutá de una estadía única en nuestra cabaña en la localidad de Nono. Un espacio acogedor,
+                    con vistas encantadoras y un ambiente tranquilo, ideal para relajarte, desconectarte de la rutina
+                    y disfrutar de la naturaleza de las sierras cordobesas. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+    
+                <p class="precio">Precio por día: $90.000</p>
+
+                <!-- El enlace dirige a la página donde se puede realizar una consulta o reserva. -->
+                <a class="boton" href="reservas.html">Consultar disponibilidad</a>
+            </article>
+
+           
+            <article class="cabaña">
+                <h2>Cabaña 3</h2>
+
+                <img src="./recursos/imagenes/modelo3.webp"
+                    alt="Vista de la cabaña 3"
+                    width="300"
+                    height="200">
+
+                <p>
+                    Viví una experiencia diferente en nuestra cabaña en la localidad de Mina Clavero. Disfrutá de
+                    sus paisajes, el aire puro de las sierras y la cercanía al río, en un entorno perfecto para
+                    relajarte y crear momentos inolvidables. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                
+                <p class="precio">Precio por día: $100.000</p>
+
+     
+                <a class="boton" href="reservas.html">Consultar disponibilidad</a>
+            </article>
+
+        
+            <article class="cabaña">
+                <h2>Cabaña 4</h2>
+
+                <img src="./recursos/imagenes/modelo4.webp"
+                    alt="Vista de la cabaña 4"
+                    width="300"
+                    height="200">
+
+                <p>
+                    Conocé la tranquilidad de Las Rabonas, un rincón encantador de Traslasierra donde nuestra cabaña
+                    te invita a disfrutar de la naturaleza, contemplar los paisajes serranos y compartir una estadía
+                    llena de calma y comodidad. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <p class="precio">Precio por día: $110.000</p>
+
+                <a class="boton" href="reservas.html">Consultar disponibilidad</a>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- FOOTER:  identifica el pie de página y su información final. -->
+    <footer class="pie">
+        <p class="texto-pie">2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

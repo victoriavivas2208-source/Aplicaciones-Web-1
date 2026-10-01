@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Adaptamos la vista a diferentes tamaños de pantalla. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable | Reservas</title>
+
+    <!-- Vinculamos la hoja de estilos general del sitio. -->
+    <link rel="stylesheet" href="./recursos/css/index.css">
+
+    <!-- Vinculamos los estilos específicos de la página de reservas. -->
+    <link rel="stylesheet" href="./recursos/css/reservas.css">
+</head>
+
+<body>
+
+    <!-- HEADER: contiene el logo y el menú principal. -->
+    <header class="encabezado">
+
+        <!-- El logo es un enlace que permite volver al inicio. -->
+        <a class="logo" href="index.html" aria-label="Ir al inicio de Retiro Sustentable">
+            <!-- ALT: describe la imagen, se utiliza para personas que utilizan los lectores de pantalla. -->
+            <img src="./recursos/imagenes/logo-rs.svg"
+                alt="Retiro Sustentable"
+                width="950"
+                height="200">
+        </a>
+
+        <!-- NAV: navegación principal del sitio. -->
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+
+    <!-- MAIN: contenido principal de la página. -->
+    <main class="contenido">
+
+        <section class="reservas">
+            <h1>Consultas y reservas</h1>
+
+            <p>
+                Completá el formulario con tus datos para realizar una consulta
+                o solicitar una reserva.
+            </p>
+
+            <!-- FORM: permite rellenar y enviar los datos. -->
+            <form class="formulario-reserva" action="#" method="post">
+
+                <div>
+                    <label for="nombre">Nombre y apellido</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        autocomplete="name"
+                        required>
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        autocomplete="tel"
+                        required>
+                </div>
+
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required>
+                </div>
+
+                <div>
+                    <label for="fecha-desde">Fecha desde</label>
+                    <input
+                        type="date"
+                        id="fecha-desde"
+                        name="fecha-desde"
+                        required>
+                </div>
+
+                <div>
+                    <label for="fecha-hasta">Fecha hasta</label>
+                    <input
+                        type="date"
+                        id="fecha-hasta"
+                        name="fecha-hasta"
+                        required>
+                </div>
+
+                <div>
+                    <label for="comentario">Comentario</label>
+                    <textarea
+                        id="comentario"
+                        name="comentario"
+                        rows="5"
+                        placeholder="Escribí aquí tu consulta"></textarea>
+                </div>
+
+                <button class="boton" type="submit">
+                    Enviar consulta
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER: información final del sitio. -->
+    <footer class="pie">
+        <p class="texto-pie">2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

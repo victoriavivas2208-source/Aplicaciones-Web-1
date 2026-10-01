@@ -1,0 +1,53 @@
+/* CONTENEDOR PRINCIPAL DE RESERVAS */
+/* Se limita el ancho y se centra el contenido para facilitar la lectura. */
+.reservas {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+/* TÍTULO DE LA PÁGINA */
+/* Se centra el título para destacarlo como encabezado principal. */
+.reservas h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* FORMULARIO */
+.formulario-reserva {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* CAMPOS */
+.formulario-reserva label {
+    font-weight: bold;
+}
+
+.formulario-reserva input,
+.formulario-reserva select,
+.formulario-reserva textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* BOTÓN */
+.formulario-reserva button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #9be6c6;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario-reserva button:hover {
+    opacity: 0.8;
+}
+
