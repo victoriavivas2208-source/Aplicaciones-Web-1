@@ -170,57 +170,6 @@ p {
     background-color: #356b53;
 }
 
-/* Ajustamos el ancho del formulario para facilitar su lectura. */
-.contenido-formulario {
-    max-width: 760px;
-}
-
-/* Grid organiza los elementos del formulario y mantiene una separación uniforme. */
-.formulario {
-    display: grid;
-    gap: 1.1rem;
-    padding: 1.5rem;
-    background-color: #ffffff;
-    border: 1px solid #deded5;
-    border-radius: 0.75rem;
-}
-
-/* Se utiliza Grid para ordenar cada campo y su etiqueta. */
-.campo {
-    display: grid;
-    gap: 0.4rem;
-}
-
-/* Se destacan las etiquetas para facilitar la identificación de cada campo. */
-.campo label {
-    font-weight: bold;
-}
-
-/* Se aplican los mismos estilos a los campos para mantener una apariencia uniforme. */
-.campo input,
-.campo textarea {
-    width: 100%;
-    padding: 0.7rem;
-    border: 1px solid #8b968f;
-    border-radius: 0.35rem;
-    background-color: #ffffff;
-    color: #26312c;
-    font: inherit;
-}
-
-/* Se destaca visualmente el campo seleccionado para facilitar su identificación. */
-.campo input:focus,
-.campo textarea:focus {
-    outline: 2px solid #356b53;
-    outline-offset: 2px;
-}
-
-/* Se elimina el margen y se destaca el mensaje para facilitar su lectura. */
-.mensaje {
-    margin: 0;
-    font-weight: bold;
-}
-
 /* El pie comparte el color del encabezado para unificar. */
 .pie {
     padding: 1.25rem 5%;
@@ -252,9 +201,5 @@ p {
 
     .cabaña img {
         height: 220px;
-    }
-
-    .formulario {
-        padding: 1rem;
     }
 }
