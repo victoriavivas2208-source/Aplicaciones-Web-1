@@ -1,5 +1,5 @@
-
-/* Cargamos la tipografía Sora que ya viene en el proyecto. */
+/* En esta parte configuramos la tipografía y algunos estilos generales
+que se van a aplicar en todo el sitio. */
 @font-face {
     font-family: "Sora";
     src: url("./fuentes/Sora-Regular.ttf") format("truetype");
@@ -7,18 +7,17 @@
     font-style: normal;
 }
 
-/* Modelo de caja alternativo: incluye padding y borde en el tamaño total. */
 * {
     box-sizing: border-box;
 }
 
-/* SELECTORES DE TIPO: definimos primero los estilos generales. */
 html {
     font-family: "Sora", sans-serif;
     font-size: 16px;
 }
 
-/* Se eliminan los márgenes predeterminados y se definen colores generales para toda la página. */
+/* Definimos los colores principales, el fondo, los márgenes y el
+espaciado general que tendrá la página. */
 body {
     margin: 0;
     color: #26312c;
@@ -26,25 +25,23 @@ body {
     line-height: 1.6;
 }
 
-/* Las imágenes se adaptan al ancho disponible para evitar que se desborden. */
 img {
     display: block;
     max-width: 100%;
 }
 
-/* Los enlaces mantienen el color del elemento que los contiene. */
 a {
     color: inherit;
 }
 
-/* Se elimina el margen superior de estos elementos para controlar mejor los espacios. */
 h1,
 h2,
 p {
     margin-top: 0;
 }
 
-/* HEADER: Flexbox distribuye el logo y el menú. */
+/* En el encabezado organizamos el logo y los enlaces de navegación.
+Utilizamos Flexbox para mantener los elementos alineados y separados. */
 .encabezado {
     display: flex;
     justify-content: space-between;
@@ -55,29 +52,24 @@ p {
     color: #26312c;
 }
 
-/* LOGO */
-/* Se utiliza Flexbox para mantener el logo correctamente alineado. */
 .logo {
     display: inline-flex;
     align-items: center;
     max-width: 190px;
 }
 
-/* La imagen ocupa el ancho disponible sin deformarse. */
 .logo img {
     width: 100%;
     height: auto;
 }
 
-/* NAVEGACIÓN */
-/* Flexbox permite organizar los enlaces del menú y adaptarlos cuando sea necesario. */
+/* En esta parte organizamos el menú y definimos el aspecto de sus enlaces. */
 .encabezado nav {
     display: flex;
     flex-wrap: wrap;
     gap: 1.25rem;
 }
 
-/* Se agregan espacios y se elimina el subrayado para mejorar la presentación de los enlaces. */
 .encabezado nav a {
     display: inline-block;
     padding: 0.5rem 0.75rem;
@@ -86,14 +78,13 @@ p {
     border-radius: 0.35rem;
 }
 
-/* Se cambia el fondo al interactuar con los enlaces para indicar que son seleccionables. */
 .encabezado nav a:hover,
 .encabezado nav a:focus-visible {
     background-color: #ffffff;
     color: #244b3b;
 }
 
-/* Contenedor centrado para el contenido de las páginas. */
+
 .contenido {
     width: min(1100px, 90%);
     min-height: 65vh;
@@ -101,27 +92,24 @@ p {
     padding: 2.5rem 0;
 }
 
-/* Se limita el ancho del texto y se centra para facilitar su lectura. */
 .presentacion {
     max-width: 760px;
     margin: 0 auto 2rem;
     text-align: center;
 }
 
-/* Se destaca el título principal utilizando el color principal del sitio. */
 .presentacion h1 {
     margin-bottom: 0.75rem;
     color: #244b3b;
 }
 
-/* Grid organiza las cuatro cabañas en columnas. */
+/* En el catálogo utilizamos Grid para ordenar las cabañas en columnas.. */
 .catalogo {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
 }
 
-/* Cada cabaña se presenta como una tarjeta independiente. */
 .cabaña {
     padding: 1.25rem;
     background-color: #ffffff;
@@ -130,13 +118,11 @@ p {
     box-shadow: 0 3px 12px rgb(0 0 0 / 7%);
 }
 
-/* Se utiliza el mismo color principal para destacar el nombre de cada cabaña. */
 .cabaña h2 {
     margin-bottom: 1rem;
     color: #244b3b;
 }
 
-/* Las imágenes ocupan todo el ancho de la tarjeta y mantienen una proporción uniforme. */
 .cabaña img {
     width: 100%;
     height: 250px;
@@ -145,12 +131,12 @@ p {
     border-radius: 0.5rem;
 }
 
-/* Se destaca el precio para que sea fácil de identificar. */
 .precio {
     font-weight: bold;
 }
 
-/* La misma clase sirve para los enlaces y el botón del formulario. */
+/* Esta clase se utiliza en los enlaces principales y en el botón del formulario,
+manteniendo el mismo estilo para que los elementos sean reconocibles. */
 .boton {
     display: inline-block;
     padding: 0.7rem 1rem;
@@ -164,13 +150,12 @@ p {
     cursor: pointer;
 }
 
-/* Se modifica el color al interactuar para indicar que el elemento es seleccionable. */
 .boton:hover,
 .boton:focus-visible {
     background-color: #356b53;
 }
 
-/* El pie comparte el color del encabezado para unificar. */
+/* configuramos elpie de página y su texto con los mismos colores utilizados en el encabezado. */
 .pie {
     padding: 1.25rem 5%;
     background-color: #9be6c6;
@@ -178,17 +163,16 @@ p {
     text-align: center;
 }
 
-/* Se elimina el margen predeterminado del párrafo del pie. */
 .pie p {
     margin: 0;
 }
 
-/* Se utiliza un tamaño de letra menor para el texto del pie. */
 .texto-pie {
     font-size: 0.9rem;
 }
 
-/* Adaptamos el layout para pantallas pequeñas. */
+/* Estos es para que el contenido se acomode mejor
+cuando la página se visualiza desde celulares o pantallas pequeñas. */
 @media (max-width: 650px) {
     .encabezado {
         flex-direction: column;
